@@ -1,7 +1,7 @@
 function is_prime(num){
     let fact = 0;
-    for(let i=1; i<num; i++){
-        if(i % num == 0){
+    for(let i=1; i<=num; i++){
+        if(num % i == 0){
             fact++;
         }
     }
